@@ -1,7 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&family=Roboto:wght@500;700;900&display=swap');
 
 
 * {
+    font-family: Radio Canada, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -47,17 +48,107 @@ body {
     color: #ffffff;
     border-radius: 5px;
     padding: 5px 10px;
-    font-weight: bold;
 }
 
 #button2 {
     border-radius: 5px;
     padding: 5px 10px;
     color: #ababab;
-    font-weight: bold;
 }
 
-.all-button {
+.all-section {
     padding: 15px 0px 10px 50px;
+}
+/* fine-sezione-button */
+
+hr {
+    border-color: #e4e4e44c;
+}
+
+/* seconda-sezione */
+
+/* New-task */
+
+.freccia {
+    font-size: 50%;
+}
+
+.new-task {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.spunta-rossa {
+    background-image: url(../img/croce-rossa.jpg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+
+.editorial {
+    background-color: #0092d6;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+/* Today */
+.today {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.spunta-verde {
+    background-image: url(../img/spunta-verde.jpg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.Q1-Goals {
+    background-color: #670075;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+    
+}
+
+.Recruiting {
+    background-color: #28ba9a;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.mobile {
+    background-color: #d28144;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+/* Upcoming */
+
+.website {
+    background-color: #d244aa;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.sales {
+    background-color: #b8d244;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #ffffff;
 }
 
